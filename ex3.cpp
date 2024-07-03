@@ -14,10 +14,7 @@ int main(){
     cout << "Rolling dice..." << endl;
     cout << "Die 1: " << dice1 << endl;
     cout << "Die 2: " << dice2 << endl;
-    cout << "Total value: " << dice1 + dice2 << endl << endl; 
-    
-    if(dice1 >= dice2) cout << "You won" << endl;
-    else cout << "You lost" << endl;
-
+    cout << "Total value: " << dice1 + dice2 << endl; 
+ 
     return 0;
 }
