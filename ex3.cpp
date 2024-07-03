@@ -10,7 +10,7 @@ int main(){
     cout << "> ";
     cin >> name;
     cout << "Hello, " << name << "!" << endl << endl;
-
+    
     cout << "Rolling dice..." << endl;
     cout << "Die 1: " << dice1 << endl;
     cout << "Die 2: " << dice2 << endl;
