@@ -9,16 +9,13 @@ int main(){
     cout << "What is your name?" << endl;
     cout << "> ";
     cin >> name;
-    cout << "Hello, " << name << "!" << endl << endl;
-
+    cout << "Hello, " << name << "!" << endl;
     cout << "Rolling dice..." << endl;
     cout << "Die 1: " << dice1 << endl;
     cout << "Die 2: " << dice2 << endl;
     cout << "Total value: " << dice1 + dice2 << endl; 
-
-    cout << endl; 
-    if(dice1 >= dice2) cout << "You won" << endl;
-    else cout << "You lost" << endl;
+    if(dice1 >= dice2) cout << name << " won!" << endl;
+    else cout << name << " lost!" << endl;
     
     return 0;
 }
