@@ -13,6 +13,6 @@ int main(){
     cout << endl; 
     if(dice1 >= dice2) cout << "You won" << endl;
     else cout << "You lost" << endl;
-
+    
     return 0;
 }
